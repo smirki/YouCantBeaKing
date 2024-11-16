@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+    </head>
+    <body>
+        <div class="top">
+            <button onclick="turn();">End Turn</button>
+            <div class="gold brown">Gold: <span id="goldAmt"></span></div>
+            <div class="food brown">Food: <span id="foodAmt"></span></div>
+            <div class="population brown">Population: <span id="popAmt"></span></div>
+            <div class="morale brown">Public Morale: <span id="moraleInd"></span></div>
+            <div class="health brown">Health Status: <span id="healthInd"></span></div>
+            <div class="education brown">Education Level: <span id="educLvl"></span></div>
+        </div>
+        <div class="main">
+            <div class="row">
+                <div class="column">
+                    <div class="statcard">
+                        <div class="heading">Production</div>
+                        <div class="content">
+                            <p>Resource Stocks: Wood 100, Stone 100, Iron 50</p>
+                            <p>Trade Balance: Positive</p>
+                            <p>Agricultural Policies: Wheat, Corn</p>
+                            <p>Infrastructure Development: Roads - Good, Bridges - Moderate</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Standings 
+                <div class="column">
+                    <div class="statcard">
+                        <div class="heading">Standings</div>
+                        <div class="content">
+                            <p>Army Size: 1500</p>
+                            <p>Military Strength: Moderate</p>
+                            <p>Fortification Level: High</p>
+                            <p>Noble Loyalty: Stable</p>
+                            <p>Diplomatic Relations: Friendly with Kingdom X</p>
+                            <p>Espionage Intelligence: High</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Player and Kingdom Progress 
+                <div class="column full">
+                    <div class="statcard">
+                        <div class="heading">Player and Kingdom Progress</div>
+                        <div class="content">
+                            <p>Player's Reputation: Respected</p>
+                            <p>Kingdom's Prestige: Renowned</p>
+                            <p>Succession Stability: Secure</p>
+                            <p>Famine Risk: Low</p>
+                            <p>Rebellion Risk: Moderate</p>
+                            <p>Natural Disaster Risk: Low</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        -->
+            <div class="row">
+                <div id="gamedata"class="statcardblack">
+                    Your economy has died.
+                </div>
+            </div>
+            <div class="row">
+                <div class="action">
+                    <button>Trade</button>
+                    <button onclick = "updatePeople(1, 'farmer')">Develop Farmer</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="resources">
+                        <div class="resource-title">
+                            Farmer:
+                        </div>
+                        <div id="farmers" class="imagecontainer">
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    hi
+                </div>
+                <div class="column">hi3</div>
+                <div class="column">hi4</div>
+            </div>
+            
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

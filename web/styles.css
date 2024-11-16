@@ -1,0 +1,97 @@
+body {
+    font-family: monospace;
+    font-weight: bold;
+    background-color: #283c42;
+    color: white;
+}
+
+.top {
+    background-color: #525162;
+    padding: 1%;
+    border-radius: 3px;
+}
+
+.brown {
+    display: inline-block;
+    background-color: #525162;
+    color: white;
+}
+
+button {
+    font-family: monospace;
+    font-weight: bold;
+    background-color: #fd9978;
+    border-color: #ffb9a2;
+    border-radius: 9px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+
+.statcard {
+    color: black;
+    background-color: white;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.statcardblack{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.action{
+    color: black;
+    background-color: #456668;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.heading {
+    color: black;
+    font-size: 20px;
+}
+
+p {
+    color: black;
+}
+
+.resources {
+    color: white;
+    background-color: #456668;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.resource {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+img {
+    width: 20px;
+    display: block;
+}
